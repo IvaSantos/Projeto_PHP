@@ -2,7 +2,8 @@
 * text=auto
 
 # Custom for Visual Studio
-*.cs     diff=csharp
+#*.cs     diff=csharp
+*.js
 
 # Standard to msysgit
 *.doc	 diff=astextplain
