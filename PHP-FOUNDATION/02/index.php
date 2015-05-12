@@ -1,13 +1,13 @@
 <?php
 
-	require_once('header.php');
-    
-    require_once('menu.php');  
-        
-   
-	if(isset($_GET['pag']))
-		require_once($_GET['pag'].'.php');
-	else
-		require_once('home.php');
+	require_once('pagina/header.php');
+         
+   	require_once(routeUrl());
+	$route = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+	var_dump($route);	
+	$path = $route['path'];
+	$path = explode('/', $path);
+	echo ' #### '.$path['1'];
 	
-    require_once('footer.php');
+	
+    require_once('pagina/footer.php');
