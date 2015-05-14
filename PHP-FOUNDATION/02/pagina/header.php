@@ -4,7 +4,7 @@ ini_set("display_errors", 1);
 date_default_timezone_set('America/Sao_Paulo');
 
 require_once('./funcao/funcao.php');
-
+ 
 ?>
 
 <!DOCTYPE html>
