@@ -12,12 +12,16 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                     <ul class="nav navbar-nav">
-                        <li><a href="home">Home</a></li>
-                        <li><a href="empresa">Empresa</a></li>
-                        <li><a href="produtos">Produtos</a></li>
-                        <li><a href="servicos">Serviços</a></li>
-                        <li><a href="contato">Contato</a></li>
+                        <li><a href="Home">Home</a></li>
+                        <li><a href="Empresa">Empresa</a></li>
+                        <li><a href="Produtos">Produtos</a></li>
+                        <li><a href="Servicos">Serviços</a></li>
+                        <li><a href="Contato">Contato</a></li>
                     </ul>
+                    <form method="post" class="navbar-form navbar-right">
+                      <input type="text" name="pesqusa" class="form-control" placeholder="Pesquisa...">
+                      <button type="submit" class="btn">Busca</button>
+                    </form>
                 </div><!--/.nav-collapse -->
             </div>
         </nav>

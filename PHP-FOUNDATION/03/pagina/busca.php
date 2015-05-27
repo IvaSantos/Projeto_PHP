@@ -1,9 +1,11 @@
-		
+
         <!-- Begin page content -->
         <div class="container">
         	<div class="jumbotron">
-                <div class="page-header jumbotron">
-                    <h1 class="alert">PROJETO PHP</h1>
+            	<h1>Busca</h1>
+                <div class="page-header">
+                    <p><?php echo Busca(); ?><p>
                 </div>
             </div>
         </div>
+  
