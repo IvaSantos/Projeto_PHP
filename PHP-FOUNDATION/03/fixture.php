@@ -10,7 +10,7 @@ $conn->query("DROP TABLE IF EXISTS paginas;");
 $conn->query("CREATE table paginas(
 				id INT( 10 ) AUTO_INCREMENT NOT NULL PRIMARY KEY,
 				nome VARCHAR( 100 ) NOT NULL, 
-				conteudo TEXT NOT NULL);");
+				conteudo VARCHAR( 250 ) NOT NULL);");
 
 
 function insert($nome,$conteudo) {
