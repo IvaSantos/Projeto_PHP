@@ -15,7 +15,7 @@ function routeUrl() {
 		return 'pagina/busca.php';
 		
     if ($path == "") 
-        $path = "home";
+        $path = "Home";
     
 	$pagina = select($path); 
 	

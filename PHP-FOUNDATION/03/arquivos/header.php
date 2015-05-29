@@ -20,7 +20,7 @@
         <meta name="author" content="Ivan Santos">
         <link rel="icon" href="http://getbootstrap.com/favicon.ico">
     
-        <title>Projeto PHP</title>
+        <title>| Projeto PHP</title>
         <link href="./css/bootstrap.min.css" rel="stylesheet">
         <link href="./css/footer.css" rel="stylesheet">
     
